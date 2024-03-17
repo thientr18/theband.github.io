@@ -34,6 +34,7 @@ html {
     right: 0;
     height: 46.5px;
     background-color: #000;
+    z-index: 1;
 }
 
 #nav {
@@ -111,9 +112,36 @@ html {
 }
 
 #slider {
-    min-height: 500px;
-    background-color: #fff;
     margin-top: 46.5px;
+    padding-top: 50%;
+    position: relative;
+    background: url('/assets/img/slider/slider1/chicago.jpg') top center / cover no-repeat;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 48px;
+
+    /* left: 50%;
+    transform: translateX(-50%); */
+
+    /* right: 0%;
+    left: 0%; */
+
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .text-discription {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 25px;
 }
 
 #content {
