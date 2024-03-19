@@ -23,6 +23,10 @@ html {
     4. Shape
 */
 
+.clear {
+    clear: both;
+}
+
 #main{
     
 }
@@ -176,10 +180,29 @@ html {
     line-height: 1.6;
 }
 
-#content .section-heading,
-#content .section-sub-heading {
+#content .member-item {
+    float: left;
+    width: calc(100%/3);
     text-align: center;
 }
+
+#content .member-list {
+    margin-top: 48px;
+    
+}
+
+#content .member-name {
+    font-size: 15px;
+
+}
+
+#content .member-img {
+    margin-top: 15px;
+    width: 152px;
+    border-radius: 4px;
+}
+
+
 
 #footer{
     
