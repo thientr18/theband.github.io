@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>The Band</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/themify-icons/SVG/music-alt.svg">
     <link rel="stylesheet" href="assets/img/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -13,7 +13,7 @@
         <div id="header">
             <!-- Bigin: Nav -->
             <ul id="nav">
-                <li><a href="#home">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#band">Band</a></li>
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -23,9 +23,9 @@
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
@@ -47,7 +47,7 @@
 
         <div id="content">
             <!-- About Section -->
-            <div class="content-section">
+            <div id="band" class="content-section">
                 <h2 class="section-heading">THE BAND</h2>
                 <p class="section-sub-heading">We love music</p>
                 <p class="about-text">
@@ -70,7 +70,7 @@
             </div>
             <!-- Tour section -->
             <div class="tour-section">
-                <div class="content-section">
+                <div id="tour" class="content-section">
                     <h2 class="section-heading  text-white">TOUR DATES</h2>
                     <p class="section-sub-heading  text-white">Remember to book your tickets!</p>
                     
@@ -89,7 +89,7 @@
                                 <h3 class="place-heading">New York</h3>
                                 <p class="place-time">Fri 27 Nov 2024</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="col col-third">
@@ -98,7 +98,7 @@
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Sat 28 Nov 2024</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="col col-third">
@@ -107,14 +107,14 @@
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time">Sun 29 Nov 2024</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Contact section -->
-            <div class="content-section">
+            <!--Begin: Contact section -->
+            <div id="contact" class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
                 <p class="about-text">
@@ -140,15 +140,30 @@
                                     <input type="text" name="" placeholder="Message" required id="" class="form-control">
                                 </div>
                             </div>
-                            <input class="form-submit-btn mt-16" type="submit" value="SEND">
+                            <input class="btn pull-right mt-16" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
                 </p>
             </div>
+            <!-- End: Contact section -->
+
+            <div class="map-section">
+                <img src="./assets/img/map/map.jpg" alt="Map">
+            </div>
         </div>
 
-        <div id="footer"></div>
+        <div id="footer">
+            <div class="socials-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-twitter"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+        </div>
     </div>
 
     <div class="modal js-modal">
